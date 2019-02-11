@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item
+        android:id="@+id/action_cat"
+        android:enabled="true"
+        android:icon="@drawable/ic_account_box_black_24dp"
+        android:title="categories"
+        app:showAsAction="ifRoom"
+        android:tooltipText="cake"
+         />
+
+
+    <item
+        android:id="@+id/action_rankin"
+        android:enabled="true"
+        android:icon="@drawable/ic_cake_black_24dp"
+        android:title="Store"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/qr"
+        android:enabled="true"
+        android:icon="@drawable/ic_aspect_ratio_black_24dp"
+        android:title="QR scanner"
+        app:showAsAction="ifRoom"
+        />
+
+
+
+
+</menu>

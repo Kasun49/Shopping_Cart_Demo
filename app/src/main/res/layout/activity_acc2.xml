@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Acc2">
+
+    <TextView
+        android:id="@+id/tvProductListHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        android:gravity="center"
+        android:paddingBottom="@dimen/common_padding"
+        android:paddingTop="@dimen/common_padding"
+        android:text="Payment History"
+        android:textAllCaps="true"
+        android:textSize="@dimen/header_text_size"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/light_blue"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/common_padding"
+        android:paddingTop="@dimen/common_padding"
+        android:weightSum="1"
+        android:id="@+id/sdsd"
+        android:layout_below="@id/tvProductListHeader">
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:gravity="center"
+            android:text="@string/name"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/product_list_header_text_size"/>
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="@string/quantity"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/product_list_header_text_size"/>
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:gravity="center"
+            android:text="payment_method"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/product_list_header_text_size"/>
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.35"
+            android:gravity="center"
+            android:text="date"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/product_list_header_text_size"/>
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+    <ListView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:id="@+id/list"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        tools:context="com.android.tonyvu.sc.demo.Acc2"
+        android:layout_below="@id/sdsd"
+        >
+
+
+    </ListView>
+
+
+
+
+
+</RelativeLayout>
